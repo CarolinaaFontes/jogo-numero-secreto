@@ -5,7 +5,7 @@ Projeto criado para praticar lógica de programação e estruturas de repetiçã
 ## Como jogar
 
 1. Abra o arquivo `index.html` no navegador.
-2. Digite um número entre 1 e 50 no prompt.
+2. Digite um número entre 1 e 100 no prompt.
 3. Siga as dicas para descobrir o número secreto.
 4. Continue até acertar o número.
 
