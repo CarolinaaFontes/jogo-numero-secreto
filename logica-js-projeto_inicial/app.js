@@ -1,11 +1,11 @@
 alert("Bem-vindo ao jogo secreto!");
 
-function gerarNumeroSecreto() {
-    return Math.floor(Math.random() * 50) + 1; // número entre 1 e 50
-}
-
-let numeroSecreto = gerarNumeroSecreto();
-let numeroEscolhido = Number(prompt("Escolha um número entre 1 e 50"));
+//"parseInt" = diz que quer apenas numero inteiros
+// math.random = faz o sistema escolher um nummero aleatorio
+// "*50" = ele vai até o numero 50 mas colo ele desconsidera o ultimo numero colocamos "+1"
+let numeroMaximo = 100
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
+let numeroEscolhido = Number(prompt(`Escolha um numero de 1 a ${numeroMaximo}`));
 
 // enquanto x condição não acontecer continuar repetindo
 while (numeroEscolhido !== numeroSecreto) {
