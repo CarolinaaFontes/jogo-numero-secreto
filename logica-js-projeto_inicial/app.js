@@ -17,7 +17,7 @@ while (numeroEscolhido !== numeroSecreto) {
     }
 
     // pedir novamente
-    numeroEscolhido = Number(prompt("Escolha outro número entre 1 e 50"));
+    numeroEscolhido = Number(prompt("Escolha outro número entre 1 e 100"));
 }
 
 alert(`Você acertou o numero secreto :) ${numeroSecreto}`)
